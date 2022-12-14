@@ -8,6 +8,7 @@ class Index extends React.Component {
       <DefaultLayout>
         <div>
           <a href="/movies/new">Create a Movie</a>
+          <a href="/user/logout"><button>Logout</button></a>
           {
             movies.map((movie) => {
               return(
